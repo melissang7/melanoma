@@ -10,11 +10,8 @@ app = Flask(__name__)
 def DiagnosticoMelanoma():
     return render_template("DiagnosticoMelanoma.html")
 
-
-
-
 #colocar o site no ar
 if __name__ == "__main__":   #executar o código quando rodar diretamente
     app.run(debug=True)
 
-    # servidor do heroku
+    # servidor Vercel
